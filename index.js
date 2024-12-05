@@ -172,7 +172,7 @@ async function run() {
 
 
     // Add Flight Route
-    app.post('/flight', verifyWebToken, async (req, res) => {
+    app.post('/flight',async (req, res) => {
       try {
         const {
           flightNumber,
